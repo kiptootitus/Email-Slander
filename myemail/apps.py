@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class MyEmaiSenderConfig(AppConfig):
+class MyemailConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'my_emai_sender'
+    name = 'myemail'
