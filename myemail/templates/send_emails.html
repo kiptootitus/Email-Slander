@@ -1,0 +1,4 @@
+html_message = '''<h1>this is an automated message</h1>'''
+msg = EmailMessage(subject, html_message, email_from,recipient_list, connection=connection)
+msg.content_subtype = "html"
+msg.send()
